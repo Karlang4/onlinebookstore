@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang ="eng">
+    <head>
+        <meta charset="=UTF-8">
+        <meta http-equiv="x-UA-compatible" content=" IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>online book store | HTML CSS</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+            <div class="logo">
+                <h2>bostorek</h2>
+
+            </div>
+        <div class="navmenu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contactus">Contact Us</a></li>
+
+            </ul>
+            <div class="search-box">
+                <input type="search" class="search" placeholder="search hear...">
+                <i class='bx bx-search'></i>
+            </div>
+        </div>
+        </nav>
+        <div class="main-header">
+        <div class="header">
+            <h5> bostorek bookstore</h5>
+            <h2> for all your reading Needs</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+             Labore facere ratione corrupti blanditiis, consectetur provident.</p>  
+            
+             <a href=""class="btn">read more</a>
+        </div>
+        <img src="./Summer-Reading-Stock-2023-EG-3959-w.jpg" alt="">
+        </div>
+        </header>
+
+        <section class="Categories">
+        <div class="cat-row">
+          <div class="cat-header">
+           
+            <h2>books categories</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div> 
+          <div class="cat-books">
+            <div class="books">
+               <div class ="book-img">
+                <img src="./cat1.png" alt="">
+
+            </div>
+            <h4>english</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               .</p>
+            </div>
+            
+            <div class="books">
+               <div class ="book-img">
+                <img src="./cat2.png" alt="">
+
+            </div>
+            <h4>Biography</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+               .</p>
+           </div>    
+            <div class="books">
+               <div class ="book-img">
+                <img src="./cat3.png" alt="">
+
+            </div>
+            <h4>maths</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                 .</p>
+            </div> 
+          
+            <div class="books">
+               <div class ="book-img">
+                <img src="./cat4.png" alt="">
+
+            </div>
+            <h4>science</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                .</p>
+        </div>  
+        
+            <div class="books">
+                <div class ="book-img">
+                <img src="./cat5.png" alt="">
+
+            </div>
+            <h4>history</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              .</p>
+        </div>  
+    
+            <div class="books">
+                <div class ="book-img">
+                <img src="./cat6.png" alt="">
+
+            </div>
+            <h4>political</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                .</p>
+        </div>  
+
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="set-row">
+            <img src="./about-img.png" alt="">
+        <div class="about our-content">
+            <h2>About our Bookstore</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium voluptatum voluptas labore error nisi ea ut, dolore quos magnam alias! Omnis autem quia, tempore molestias repellat similique labore odit esse.</p>
+            <a href="#" class="btn2">read more</a>
+
+        </div>       
+     </div>
+    </section>
+    <section id="blog">
+        <h2 class="blog-header">form our blog</h2>
+        <div class="set-row">
+        <div class="col">
+            <img src="./b1.jpg" alt="">
+            <h4>eius, dolor? vel velit sed doloremque</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque similique numquam harum, tempore, ut quasi aliquam inventore soluta qui necessitatibus fugit nulla magnam quas rerum sunt. Aspernatur, nulla voluptatibus?</p>
+            <a href="#">read more</a>
+            <div class="dates">
+                <span>19 december 2024</span>
+            </div>
+        </div>
+        <div class="col">
+            <img src="./b2.jpg" alt="">
+            <h4>eius, dolor? vel velit sed doloremque</h4>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur doloremque similique numquam harum, tempore, ut quasi aliquam inventore soluta qui necessitatibus fugit nulla magnam quas rerum sunt. Aspernatur, nulla voluptatibus?</p>
+            <a href="#">read more</a>
+            <div class="dates">
+                <span>19 december 2024</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacus">
+        <div class="contact-row">
+            <div class="col">
+                <h2>contact us</h2>
+              
+                <form action="">
+                    <input type="text" placeholder="name">
+                    <br>
+                    <input type="text" placeholder="email">
+                    <br>
+                    <input type="text" placeholder="phone number">
+                    <br>
+                    <textarea cols="20" rows="5" placeholder="message"></textarea>
+                    <br>
+                    <input type="submit" value="SEND">
+                </form>
+            </div>
+            <div clss="col">
+                <img src="contact-img.png" alt="">
+            </div>
+        </div>
+    </section>
+    <div class="footer">
+        <div class="footer">
+            <p>@2024 All Rights Reserved By Free Online Book Shop</p>
+        </div>
+    </div>
+    </body>
+</html>
